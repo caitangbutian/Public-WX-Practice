@@ -1,3 +1,0 @@
-<!--component/b/b.wxml-->
-<view>这个是组件B</view>
-<button bindtap='change'>向主页index中传入参数</button>

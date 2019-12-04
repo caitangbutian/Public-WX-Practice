@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "pageA":"../../component/a/a",
-    "pageB": "../../component/b/b"
-  }
-}
