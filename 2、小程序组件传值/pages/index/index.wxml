@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view>当前页面是主页</view>
+<pageA id="pageA"></pageA>
+<pageB id="pageB"></pageB>
+<view>===========分割===========</view>
+<view>父级index传值给组件A</view>
+<pageA indexToA="值：父传子，成功" id="pageA"></pageA>
+<view>===========分割===========</view>
+<view>组件B传值给父级index</view>
+<pageB id="pageB" bind:thisVar="getThisVarValue"></pageB>
+{{thisVarValue}}
